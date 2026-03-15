@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 Economic freedom — the degree to which individuals and businesses can make their own economic decisions — is a critical macro-level indicator used by policymakers, investors, and researchers alike. The **Index of Economic Freedom**, published annually by The Heritage Foundation, ranks countries across a wide range of economic and institutional indicators.
 
@@ -14,7 +14,7 @@ The project was developed during a research internship at NUS and was formally *
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 **Source:** [The Heritage Foundation — Index of Economic Freedom](https://www.heritage.org/index/)
 
@@ -37,7 +37,7 @@ The dataset has been split into **three purpose-specific files** within this rep
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 ### Data Preprocessing (`Preprocessing_code.ipynb`)
 
@@ -79,7 +79,7 @@ All models were evaluated on:
 
 ---
 
-## 📊 Results
+## Results
 
 The ensemble and boosting models (Random Forest, XGBoost, Gradient Boosting) consistently outperformed linear and distance-based baselines, with the tree-based ensembles demonstrating strong generalisation on held-out test data. The ANN achieved competitive performance, particularly on the larger feature-set configurations.
 
@@ -87,7 +87,7 @@ The ensemble and boosting models (Random Forest, XGBoost, Gradient Boosting) con
 
 ---
 
-## ⚠️ Limitations & Future Work
+## Limitations & Future Work
 
 **Current Limitations:**
 - The dataset contains a moderate class imbalance across economic freedom tiers, which may bias predictions toward majority classes
@@ -103,7 +103,7 @@ The ensemble and boosting models (Random Forest, XGBoost, Gradient Boosting) con
 
 ---
 
-## 🚀 How to Run This Project
+## How to Run This Project
 
 ### Prerequisites
 
@@ -144,7 +144,7 @@ streamlit run app.py
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Tools |
 |---|---|
@@ -159,7 +159,7 @@ streamlit run app.py
 
 ---
 
-## 👤 Author
+## Author
 
 **Dhanush Sambasivam**
 Research Intern — National University of Singapore (NUS)
@@ -171,6 +171,6 @@ This project was developed as part of a formal research internship at NUS and wa
 
 ---
 
-## 📄 License
+## License
 
 This project is intended for academic and research purposes. The dataset is publicly available via [The Heritage Foundation](https://www.heritage.org/index/). Please cite appropriately if using this work.
